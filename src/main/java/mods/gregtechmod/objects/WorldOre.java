@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.function.BooleanSupplier;
 
 public enum WorldOre {
-    GALENA(Ore.GALENA, () -> GregTechConfig.WORLDGEN.galena, DimensionType.OVERWORLD, 1, 16, 3, 0, 32, "traverse:flatlands", "traverse:plains_plateau", "traverse:rocky_edge"),
+    GALENA(Ore.GALENA, () -> GregTechConfig.WORLDGEN.galena, DimensionType.OVERWORLD, 1, 16, 3, 0, 32),
     IRIDIUM(Ore.IRIDIUM, () -> GregTechConfig.WORLDGEN.iridium, DimensionType.OVERWORLD, OreType.SINGLE, 1, 0, 5, 0, 100),
     RUBY(Ore.RUBY, () -> GregTechConfig.WORLDGEN.ruby, DimensionType.OVERWORLD, OreType.SINGLE, 8, 0, 1, 0, 32, "desert", "desert_hills", "mutated_desert", "savanna", "mutated_savanna", "biomesoplenty:shrubland", "biomesoplenty:wasteland", "twilightforest:fire_swamp", "biomesoplenty:volcanic_island", "biomesoplenty:steppe", "biomesoplenty:prairie", "biomesoplenty:lush_desert", "minecraft:mesa", "minecraft:mesa_rock", "biomesoplenty:outback", "buildcraft:oil_desert", "traverse:arid_highlands", "traverse:desert_shrubland"),
     SAPPHIRE(Ore.SAPPHIRE, () -> GregTechConfig.WORLDGEN.sapphire, DimensionType.OVERWORLD, OreType.SINGLE, 8, 0, 1, 0, 32, "ocean", "beaches", "frozen_ocean", "twilightforest:twilight_lake", "twilightforest:twilight_stream", "biomesoplenty:glacier", "biomesoplenty:mangrove", "biomesoplenty:oasis", "biomesoplenty:sacred_springs"),
